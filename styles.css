@@ -1,0 +1,130 @@
+h3, .interactions, .rightside {
+  display: inline-block;
+
+
+
+}
+
+h3{
+  color: orange;
+
+}
+.horrible li{
+  display: inline-block;
+  list-style-type: none;
+  width: 50px;
+  color: white;
+
+
+
+}
+.gettingthere li{
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+
+}
+
+.navbar {
+  background-color: black;
+  margin: 0px;
+}
+
+body{
+  margin: 0;
+}
+
+.banner{
+  color: white;
+  background-color: orange;
+  height: 90px;
+
+
+  }
+
+  h1{
+    position: relative;
+
+    margin-top:0px;
+
+    top: 50%;
+    transform: translatey(-50%);
+
+  }
+
+  .centered{
+    max-width: 2000px;
+    width: 80%;
+    margin: auto;
+    top: 50%;
+    position: relative;
+  }
+
+  .centered1{
+    max-width: 2000px;
+    width: 80%;
+    margin: auto;
+    top: 50%;
+    position: relative;
+  }
+
+  .topleft {
+    float: left;
+    width: 80%;
+
+  }
+
+.rightside {
+margin-left: auto;
+  width: 20%;
+
+}
+
+.ad {
+
+  text-align: center;
+
+}
+
+.botleft{
+  float: left;
+  width: 50%;
+}
+
+.botright {
+  float: right;
+  width: 50%
+}
+
+.ham {
+  width: 50px;
+  height: 50px;
+  display: none;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .topleft {
+    display: none;
+    }
+    .rightside{
+      display: none;
+    }
+  .ham {
+    display: block;
+  }
+  .navbar {
+    background-color: pink;
+  }
+  .centered{
+    width: 100%;
+  }
+
+  .hammenu {
+    display: none;
+  }
+
+  .hammenu.active   {
+    display: block;
+  }
+}

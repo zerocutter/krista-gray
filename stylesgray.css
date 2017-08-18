@@ -1,0 +1,49 @@
+
+body {
+display: inline-block;
+}
+
+.right {
+display: inline-block;
+background-color: white;
+float: right;
+width: 50%;
+position: relative;
+}
+
+.left {
+  background-color: white;
+  display: inline-block;
+float:left;
+width: 40%;
+padding-left: 10%;
+
+}
+
+.navbar {
+  display: inline-block;
+  width: 100%;
+
+}
+
+
+.rightlist li{
+  display: inline-block;
+  list-style-type: none;
+  width: 50px;
+  color: black;
+  padding: inherit;
+  margin-top: 10;
+
+
+}
+
+.picture, .rightbio  {
+  float: left;
+  width: 50%;
+  background-color: blue;
+}
+
+.img-circle {
+  border-radius: 50%
+}
